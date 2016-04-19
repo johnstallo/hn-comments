@@ -74,7 +74,7 @@ app.get('/api/articles/:id/comments', function(req, res) {
     } 
     var commentsByArticleID = randomComments;
      
-    console.log("found articles for articleID:" + articleID + ", %j", commentsByArticleID);
+    // console.log("found articles for articleID:" + articleID + ", %j", commentsByArticleID);
     
     res.send(commentsByArticleID);
 });
